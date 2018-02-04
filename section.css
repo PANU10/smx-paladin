@@ -4,14 +4,16 @@
 .big-img-container {
   position: relative;
   color: white;
-  vertical-align: baseline;
-  overflow: hidden;
+  margin-left: 30;
+  width: 44.555%;
+  height: 200px;
 }
 .big-img {
   width: 280px;
   background-size: cover;
   border-radius: 15px;
   height: 200px;
+
 }
 
 .big-img-text {
@@ -28,3 +30,14 @@
   font-size: 15;
   display: block;
 }
+.img-2 {
+  width: 266px;
+  background-size: cover;
+  border-radius: 15px;
+  height: 180px;
+  float: right;
+
+}
+.img-2-container {
+    margin-top: -200;
+  }
