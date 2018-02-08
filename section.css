@@ -71,6 +71,9 @@ img { max-width: 100%;}
   font-size: 18;
   font-style: normal;
 }
+.big-img {
+  border-radius: 15px;
+}
 
 
 .small-img.title {
@@ -78,11 +81,11 @@ img { max-width: 100%;}
 }
 
 .small-img-container {
-  width: 25%;
+  width: 20%;
   float: left;
   padding: 1%;
 
 }
 .big-img-container, .small-img-container, .small-img-container img, .big-img-container img {
-border-radius: 15px;
+
 }
