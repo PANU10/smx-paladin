@@ -1,5 +1,6 @@
-.tablink {
+/* Start menu-sec CSS */
 
+.tablink {
   background-color: #17171c;
   color: #b2b2b2;
   border: none;
@@ -22,10 +23,30 @@
     background-color: #2e323b;
     min-width: 160px;
     min-height: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 12px;
-    z-index: 1;
+    z-index: 9999;
     margin-top: 35px;
+}
+.dropdown-content-long {
+    display: none;
+    position: absolute;
+    background-color: #2e323b;
+    min-width: 160px;
+    min-height: 200px;
+    padding: 12px 12px;
+    z-index: 9999;
+    margin-top: 35px;
+}
+.dropdown-content-long button {
+  background-color: #2e323b;
+  color: #b2b2b2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 7px;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
 }
 .dropdown-content button {
   background-color: #2e323b;
@@ -42,25 +63,32 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-#menu {
+.dropdown:hover .dropdown-content-long {
+    display: block;
+}
+.hirez-corp {
+  background: url(./imagenes/hr-logo.png) center center no-repeat #0f1014;
+width: 46px;
+  height: 35px;
+
+}
+#menu-sec {
   display: inline-block;
   width: 100%;
   background-color: #17171c;
   list-style: none;
 }
-#menu-center{
-  padding-left: 20%;
-  padding-right: 20%;
+#menu-sec-center{
+  padding-left: 25%;
+  padding-right: 25%;
 
 }
 
-/* Change background color of buttons on hover */
 .tablink:hover {
     background-color: #2e323b;
 
 }
 
-/* Set default styles for tab content */
 .tabcontent {
     color: white;
     display: none;
@@ -74,3 +102,14 @@
 .tablink-right {
 float: right;
 }
+/* End menu-sec CSS */
+/* Start main-menu CSS */
+#main-menu{
+  width: 100%;
+  height: 78px;
+}
+#main-menu-center {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+/* End main-menu CSS */
