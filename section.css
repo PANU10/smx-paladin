@@ -90,7 +90,7 @@ img { max-width: 100%;}
   display: block;
   width: 100%;
 }
-.founder-wrapper {
+#founder-wrapper-image {
 background-repeat: no-repeat;
 background-size: cover;
 height: auto;
