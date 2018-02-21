@@ -1,5 +1,3 @@
-
-
 * {box-sizing: border-box;}
 img { max-width: 100%;}
 
@@ -14,7 +12,7 @@ img { max-width: 100%;}
   float: left;
   color: white;
   position: relative;
-  margin-right: 1%;
+  margin-right: 1.4%;
 }
 .big-img-text{
   position: absolute;
@@ -89,4 +87,16 @@ img { max-width: 100%;}
 }
 .news-row-small {
   margin-top: auto;
+  display: block;
+  width: 100%;
+}
+.founder-wrapper {
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+min-height: 1086px;
+position: relative;
+}
+.monsters-img {
+
 }
