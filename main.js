@@ -1,5 +1,4 @@
 
-  w3.includeHTML();
 
   window.onload=function() {
 
