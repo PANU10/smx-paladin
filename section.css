@@ -14,7 +14,6 @@ img { max-width: 100%;}
   color: white;
   position: relative;
   margin-right: 1.4%;
-  width: 50%;
 }
 .big-img-text{
   position: absolute;
@@ -35,7 +34,7 @@ img { max-width: 100%;}
 }
 .big-img {
   border-radius: 10px;
-  width:480px;
+  width:505px;
   height:400px;
 }
 
@@ -45,7 +44,7 @@ img { max-width: 100%;}
 }
 
 .small-img-container {
-  width: 25%;
+  width: 23%;
   float: left;
   height: 400.555px;
   overflow: hidden;
