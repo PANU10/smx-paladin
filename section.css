@@ -146,3 +146,16 @@ width: 100%;
   font-family: Oswald,sans-serif;
 text-transform: uppercase;
 }
+#section-comunity {
+  position: relative;
+  padding: top: 2%;
+}
+.comunity-wrapper {
+  background-image: url('imagenes/img-comunity-background.jpg');
+  height: 558px;
+  width: 100%;
+  float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
