@@ -1,35 +1,94 @@
+/* Start menu-sec CSS */
+
 .tablink {
-    background-color: #17171c;
-    color: #b2b2b2;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 10px 15px;
-    font-size: 10px;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    border: 1px solid #000;
-    text-transform: uppercase;
+  background-color: #17171c;
+  color: #b2b2b2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2e323b;
+    min-width: 160px;
+    min-height: 100px;
+    padding: 12px 12px;
+    z-index: 9999;
+    margin-top: 35px;
+}
+.dropdown-content-long {
+    display: none;
+    position: absolute;
+    background-color: #2e323b;
+    min-width: 160px;
+    min-height: 200px;
+    padding: 12px 12px;
+    z-index: 9999;
+    margin-top: 35px;
+}
+.dropdown-content-long button {
+  background-color: #2e323b;
+  color: #b2b2b2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 7px;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.dropdown-content button {
+  background-color: #2e323b;
+  color: #b2b2b2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 7px;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-content-long {
+    display: block;
+}
+.hirez-corp {
+  background: url(./imagenes/hr-logo.png) center center no-repeat #0f1014;
+width: 46px;
+  height: 35px;
 
 }
-#menu {
+#menu-sec {
   display: inline-block;
   width: 100%;
   background-color: #17171c;
+  list-style: none;
 }
-#menu-center{
-  padding-left: 20%;
-  padding-right: 20%;
+#menu-sec-center{
+  padding-left: 25%;
+  padding-right: 25%;
 
 }
 
-/* Change background color of buttons on hover */
 .tablink:hover {
-    background-color: #777;
+    background-color: #2e323b;
 
 }
 
-/* Set default styles for tab content */
 .tabcontent {
     color: white;
     display: none;
@@ -43,3 +102,53 @@
 .tablink-right {
 float: right;
 }
+/* End menu-sec CSS */
+/* Start main-menu CSS */
+#mainmenu{
+  content: "";
+  width: 100%;
+  height: 78px;
+  z-index: 999999;
+  background-color: white;
+
+}
+#main-menu-center {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 25px;
+}
+#main-menu-center a .left {
+  float: left;
+}
+#main-menu-center .right {
+  float: right;
+}
+#main-menu-center a {
+  color: #16212c;
+font-family: Oswald,sans-serif;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 18px;
+font-style: italic;
+font-weight: 500;
+padding-left: 20px;
+}
+.sign-up-btn {
+
+}
+.sign-up-btn a:hover {
+  color: #48a3ac;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.content {
+  padding: 16px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+¡
+/* End main-menu CSS */
