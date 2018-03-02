@@ -212,3 +212,24 @@ text-transform: uppercase;
   display: flex;
   top: 0;
 }
+.facebook {
+  bottom: 2rem;
+  font-size: 17px;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  position: relative;
+  font-family: Roboto,sans-serif;
+  top: -10rem;
+}
+.social-facebook {
+  background-image: url(imagenes/facebook-head.jpg);
+  background-repeat: no-repeat;
+  height: 18.5rem;
+  width: 34rem;
+}
+.icon-social-facebook {
+  height: 100%;
+  width: 40px;
+  background: blue;
+}
