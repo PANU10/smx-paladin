@@ -1,21 +1,28 @@
-* {box-sizing: border-box;}
-img { max-width: 100%;}
-.clearfix { clear: both; }
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
 
 .section-title {
-width: 100%;
-text-align: center;
-color: #989898;
-font-size: 20px;
-font-family: Roboto,sans-serif;
-margin-bottom: 2%;
+  width: 100%;
+  text-align: center;
+  color: #989898;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 2%;
 }
 
 .news-row {
-    width: 100%;
-    /* margin-left: 20%; */
-
-    padding: 1%;
+  width: 100%;
+  /* margin-left: 20%; */
+  padding: 1%;
 }
 
 .big-img-container {
@@ -24,7 +31,8 @@ margin-bottom: 2%;
   position: relative;
   margin-right: 1.4%;
 }
-.big-img-text{
+
+.big-img-text {
   position: absolute;
   font-size: 10;
   font-style: italic;
@@ -32,24 +40,23 @@ margin-bottom: 2%;
   font-family: 'Roboto', sans-serif;
   bottom: 8%;
   padding-left: 5%;
-
 }
+
 .big-ima-text-news {
   font-size: 30px;
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   padding-top: 5%;
-
 }
+
 .big-img {
   border-radius: 10px;
-  width:505px;
-  height:400px;
+  width: 505px;
+  height: 400px;
 }
 
-
 .small-img.title {
-   position: absolute;
+  position: absolute;
 }
 
 .small-img-container {
@@ -58,13 +65,14 @@ margin-bottom: 2%;
   height: 400.555px;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3);
   border-radius: 10px;
   margin-bottom: 1rem;
   position: relative;
   box-sizing: border-box;
   margin-right: 1%;
 }
+
 .small-img-category {
   color: #c2c2c2;
   text-decoration: none;
@@ -81,13 +89,15 @@ margin-bottom: 2%;
   font-weight: bold;
   padding-top: 3%;
 }
+
 .small-img-text {
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 5%;
   color: #8a8a8a;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
 }
+
 .news-row-small-container {
   float: left;
   width: 100%;
@@ -96,60 +106,102 @@ margin-bottom: 2%;
   margin-right: auto;
   padding: 1%;
 }
+
 .news-row-small {
   margin-top: auto;
 }
-.founder-wrapper-image {
-background-image: url('imagenes/founders-image.jpg');
-float: left;
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 1086px;
-position: relative;
-width: 100%;
-}
-.founder-image-monsters {
 
+.founder-wrapper-image {
+  background-image: url('imagenes/founders-image.jpg');
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1086px;
+  position: relative;
+  width: 100%;
 }
+
+.founder-image-monsters {}
+
 #news {
   width: 100%
 }
+
 #news-center {
   padding-left: 20%;
   padding-right: 20%;
 }
+
 .center-wrapper {
   padding-left: 20%;
   padding-right: 20%;
 }
+
 .foundersBox {
   top: 100px;
   width: 50%;
   float: right;
   position: relative;
 }
+
 .glass {
-  background-color: rgba(0,0,0,.65);
+  background-color: rgba(0, 0, 0, .65);
   border-radius: 10px;
   display: block;
-
-
 }
-.founders {
+
+.founders-header {
   color: #fff;
   font-weight: 600;
-  margin-left: -53px;
   text-align: center;
   font-size: 4rem;
-  font-size: 46px;
-    font-style: italic;
-  font-family: Oswald,sans-serif;
-text-transform: uppercase;
+  padding-top: 20px;
+  text-shadow: 0 0 10px #000;
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-style: italic;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
 }
+
+p.founders-subheader {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  padding: 36px 0 65px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+
+.founders-box {
+  position: relative;
+  font-weight: 600;
+  z-index: 10;
+  padding-left: 70px;
+}
+
+.founders-box p {
+  color: #fff;
+}
+
+.founders-box p.header {
+  background-color: #7b65b0;
+  border-top-left-radius: 8px;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 20px;
+  font-style: italic;
+  text-shadow: 2px 2px 0 #000;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
 #section-comunity {
   position: relative;
   padding: top: 2%;
 }
+
 .comunity-wrapper {
   background-image: url('imagenes/img-comunity-background.jpg');
   height: 558px;
@@ -158,4 +210,32 @@ text-transform: uppercase;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.founders-image-monsters {
+  position: absolute;
+  top: 35px;
+  left: -260px;
+  width: 100%;
+  max-width: 885px;
+  z-index: 1;
+}
+
+.founders-image-monsters img {
+  width: 100%;
+  margin-left: 350px;
+}
+
+.one {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: -4.9rem;
+}
+
+.two {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: -4.9rem;
 }
