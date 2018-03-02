@@ -204,15 +204,13 @@ p.founders-subheader {
 
 .comunity-wrapper {
   background-image: url('imagenes/img-comunity-background.jpg');
-  min-height: 558px;
+  height: 558px;
   width: 100%;
   float: left;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 .founders-image-monsters {
   position: absolute;
@@ -240,78 +238,4 @@ p.founders-subheader {
   z-index: 1;
   right: 0;
   top: -4.9rem;
-}
-.comunity-center-wrapper {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1024px;
-}
-.comunity-text-header {
-  top: 0%;
-}
-.text-header-main {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 55px;
-  text-align: center;
-  padding: 3.0rem;
-  color: white;
-  text-shadow: 0 2px 2px #000;
-  padding-bottom: 0%;
-  width: 100%;
-  font-family: Oswald,sans-serif;
-  text-transform: uppercase;
-}
-.text-header-second {
-  width: 100%;
-  font-weight: 500;
-  font-size: 25px;
-  text-align: center;
-  padding: 0;
-  margin-bottom: 50px;
-  margin-top: 15px;
-  text-shadow: 0 2px 2px #000;
-  color: white;
-  font-family: Oswald,sans-serif;
-  text-transform: uppercase;
-}
-
-.social-box {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 1rem;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
-  position: relative;
-  top: 10rem;
-  z-index: 1;
-}
-.social-box-frist-row {
-  display: flex;
-  top: 0;
-}
-.facebook {
-  bottom: 2rem;
-  font-size: 17px;
-  color: blue;
-  text-decoration: underline;
-  display: flex;
-  position: relative;
-  font-family: Roboto,sans-serif;
-  top: -10rem;
-}
-.social-facebook {
-  background-image: url(imagenes/facebook-head.jpg);
-  background-repeat: no-repeat;
-  height: 18.5rem;
-  width: 34rem;
-}
-.icon-social-facebook {
-  height: 100%;
-  width: 40px;
-  background: blue;
 }
