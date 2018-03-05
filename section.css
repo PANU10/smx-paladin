@@ -1,5 +1,6 @@
 * {box-sizing: border-box;}
 img { max-width: 100%;}
+
 .clearfix { clear: both; }
 
 .section-title {
@@ -214,22 +215,35 @@ text-transform: uppercase;
 }
 .facebook {
   bottom: 2rem;
-  font-size: 17px;
-  color: blue;
-  text-decoration: underline;
   display: flex;
   position: relative;
-  font-family: Roboto,sans-serif;
   top: -10rem;
 }
 .social-facebook {
   background-image: url(imagenes/facebook-head.jpg);
   background-repeat: no-repeat;
   height: 18.5rem;
-  width: 34rem;
+  width: 22.3rem;
 }
-.icon-social-facebook {
-  height: 100%;
-  width: 40px;
-  background: blue;
+.social-twitch {
+  background-image: url(imagenes/social-twitch.jpg);
+  background-repeat: no-repeat;
+  height: 18.5rem;
+  width: 22rem;
+}
+
+#footer{
+overflow: hidden;
+background: black;
+padding-top: 19px;
+display: block;
+width: 100%;
+}
+
+.footer-wrapper {
+  display: block;
+ position: relative;
+ margin: 0 auto;
+ width: 100%;
+ max-width: 1024px;
 }
