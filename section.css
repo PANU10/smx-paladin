@@ -282,6 +282,12 @@ max-width: 1024px;
   width: 100%;
   margin-left: 350px;
 }
+.two {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: -4.9rem;
+}
 
 .one {
   position: absolute;
@@ -316,14 +322,33 @@ max-width: 1024px;
   width: 22rem;
 }
 
-#footer {
-  overflow: hidden;
-  background: black;
-  padding-top: 19px;
-  display: block;
-  width: 100%;
+
+#download-wrapper {
+  height: 100%;
+  min-height: 636px;
 }
 
+.download-wrapper-text {
+  color: #017f8c;
+width: 100%;
+font-family: Oswald,sans-serif;
+font-weight: 700;
+font-style: italic;
+font-size: 4.8rem;
+text-align: center;
+text-transform: uppercase;
+padding: 5.5rem 0 0;
+margin-top: 52px;
+text-shadow: 1px 4px 0 #ccc;
+}
+
+#footer{
+overflow: hidden;
+background: black;
+padding-top: 19px;
+display: block;
+width: 100%;
+}
 .footer-wrapper {
   display: block;
   position: relative;
