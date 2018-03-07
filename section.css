@@ -233,45 +233,6 @@ p.founders-subheader {
   top: -4.9rem;
 }
 
-.social-box-frist-row {
-  display: flex;
-  top: 0;
-}
-.facebook {
-  bottom: 2rem;
-  display: flex;
-  position: relative;
-  top: -10rem;
-}
-.social-facebook {
-  background-image: url(imagenes/facebook-head.jpg);
-  background-repeat: no-repeat;
-  height: 18.5rem;
-  width: 22.3rem;
-}
-.social-twitch {
-  background-image: url(imagenes/social-twitch.jpg);
-  background-repeat: no-repeat;
-  height: 18.5rem;
-  width: 22rem;
-}
-
-#footer{
-overflow: hidden;
-background: black;
-padding-top: 19px;
-display: block;
-width: 100%;
-}
-
-.footer-wrapper {
-  display: block;
- position: relative;
- margin: 0 auto;
- width: 100%;
- max-width: 1024px;
-}
-
 .two {
   position: absolute;
   z-index: 1;
