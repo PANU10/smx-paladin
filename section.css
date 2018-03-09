@@ -334,7 +334,7 @@ p.founders-subheader {
 .download-wrapper-text {
   color: #017f8c;
   width: 100%;
-  font-family: Oswald, sans-serif;
+  font-family: Oswald,sans-serif;
   font-weight: 700;
   font-style: italic;
   font-size: 4.8rem;
@@ -346,12 +346,31 @@ p.founders-subheader {
   float: left;
 }
 
-#footer {
-  overflow: hidden;
-  background: black;
-  padding-top: 19px;
-  display: block;
+.download-instrucciones {
+  background: #f5f5f5;
+  padding: 55px 45px;
   width: 100%;
+  max-width: 510px;
+  margin: 60px auto;
+  border-radius: 12px;
+}
+.download-instrucciones-text {
+  color: grey;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+#footer{
+overflow: hidden;
+background: black;
+padding-top: 19px;
+display: block;
+width: 100%;
 }
 
 .footer-wrapper {
@@ -361,6 +380,31 @@ p.founders-subheader {
   width: 100%;
   max-width: 1024px;
 }
+.top-row-footer {
+  height: auto;
+  border-bottom: 2px solid #2e2e2e;
+}
+.frist-columna-download {
+  flex-basis: 49.98%;
+  max-width: 49.98%;
+}
+.frist-box{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+.icono-paladins {
+  width: 120px;
+  height: 46px;
+  display: inline-block;
+  position: relative;
+  top: auto;
+  left: auto;
+  color: blue;
+}
+
 
 .four {
   position: absolute;
