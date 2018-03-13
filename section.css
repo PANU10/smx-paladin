@@ -581,8 +581,20 @@ white-space: normal;
 padding: 0;
 }
 
-
-
+.last-footer {
+  flex-basis: 24.99%;
+  max-width: 24.99%;
+  text-align: right;
+}
+.hirez-item {
+  display: inline-block;
+position: relative;
+width: 160px;
+height: 41px;
+margin-top: 1.8rem;
+background: url('imagenes/last-footer-img.png');
+background-size: contain;
+}
 
 .four {
   position: absolute;
