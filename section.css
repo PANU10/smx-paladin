@@ -350,3 +350,6 @@ p.founders-subheader {
   font-style: italic;
   color: #fff;
 }
+#champion video {
+  max-width: 100%;
+}
