@@ -1,0 +1,230 @@
+#footer{
+overflow: hidden;
+background: black;
+padding-top: 19px;
+display: block;
+width: 100%;
+}
+
+.footer-wrapper {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+.top-row-footer {
+  height: auto;
+  border-bottom: 2px solid #2e2e2e;
+}
+.frist-columna-download {
+  flex-basis: 49.98%;
+  max-width: 49.98%;
+}
+.frist-box{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+.top-row-footer-extra {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.icono-paladins {
+  width: 120px;
+  height: 46px;
+  display: inline-block;
+  position: relative;
+  top: auto;
+  left: auto;
+  color: blue;
+}
+
+.juego-con-la-beta {
+  display: inline-block;
+font-family: "Open Sans",sans-serif,sans-serif;
+font-size: 15px;
+font-weight: 600;
+position: relative;
+left: auto;
+text-transform: uppercase;
+color: white;
+vertical-align: middle;
+top: -10px;
+margin-left: 10px;
+}
+.second-columna-download {
+  flex-basis: 49.98%;
+max-width: 49.98%;
+float: right;
+}
+.social-icons{
+  position: relative;
+display: flex;
+justify-content: flex-end;
+margin: 0;
+font-size: 1.5rem;
+line-height: 2.7rem;
+list-style: none;
+}
+.social-icons li {
+display: inline-block;
+margin-right: 10px;
+width: 32px;
+height: 32px;
+}
+
+.social-youtube-footer{
+  background-image: url('imagenes/spritesheet-footer.png');
+  background-position: -64px 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+.social-twiter-footer{
+  background-image: url('imagenes/spritesheet-footer.png');
+  background-position: -96px 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+
+.social-reddit-footer{
+  background-image: url('imagenes/spritesheet-footer.png');
+  background-position: -160px 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+.social-pack-footer{
+  display: block;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  background-image: none;
+}
+
+
+.social-pack-footer img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+.third-row-footer {
+  flex-basis: 74.97%;
+  max-width: 74.97%;
+  float: none;
+width: auto;
+}
+.footer-menu-wrapper {
+  position: relative;
+left: auto;
+top: auto;
+}
+
+#menu-footer {
+  margin: 0;
+padding: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+font-size: 1.5rem;
+line-height: 2.7rem;
+}
+.main-menu-footer li {
+  display: inline-block;
+vertical-align: top;
+margin-right: 1.2rem;
+}
+.link-menu-footer-1 {
+  height: auto;
+  margin: 1.4rem 0 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  pointer-events: none;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #2d353f;
+  padding-right: 4rem;
+  white-space: nowrap;
+}
+
+.sub-menu-footer-1 {
+  font-size: 1.5rem;
+line-height: 2.7rem;
+padding: auto;
+}
+.sub-menu-footer-1-li .sub-menu-footer-2-li {
+  display: flex;
+  width: 100%;
+  margin: 5px 0;
+  vertical-align: top;
+
+}
+
+.sub-menu-link {
+  margin: 0;
+color: #286f9f;
+text-transform: capitalize;
+pointer-events: auto;
+font-weight: 400;
+font-size: 12px;
+display: initial;
+border: none;
+width: 100%;
+line-height: 1.8rem;
+white-space: normal;
+padding: 0;
+}
+
+.last-footer {
+  flex-basis: 24.99%;
+  max-width: 24.99%;
+  text-align: right;
+  float: right;
+}
+.hirez-item {
+display: inline-block;
+position: relative;
+width: 160px;
+height: 41px;
+background: url('imagenes/last-footer-img.png');
+background-size: contain;
+margin-left: 270px;
+}
