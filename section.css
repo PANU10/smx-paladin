@@ -620,3 +620,6 @@ background-size: contain;
   font-style: italic;
   color: #fff;
 }
+#champion video {
+  max-width: 100%;
+}
