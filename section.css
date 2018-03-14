@@ -605,10 +605,21 @@ background-size: contain;
 
 /* Champion section */
 #champion {
+  display: block;
   background-image: url('imagenes/champion.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 1000px;
+}
+
+.champion-name {
+  font-family: Oswald,sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #fff;
+}
+#champion video {
+  max-width: 100%;
 }
